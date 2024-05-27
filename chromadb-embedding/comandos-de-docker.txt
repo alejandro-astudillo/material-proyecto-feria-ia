@@ -1,0 +1,5 @@
+Descargar imagen:
+docker pull chromadb/chroma
+
+Montar imagen en contenedor:
+docker run -p 8000:8000 --name chroma chromadb/chroma
